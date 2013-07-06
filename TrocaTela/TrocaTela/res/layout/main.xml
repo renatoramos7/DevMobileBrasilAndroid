@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Bem vindo ao programa de troca de telas Esta é a tela 1 escolha a tela que você quer entrar" />
+
+    <Button
+        android:id="@+id/bttela2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tela2" />
+
+    <Button
+        android:id="@+id/bttela3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tela3" />
+
+</LinearLayout>

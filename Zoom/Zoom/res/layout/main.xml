@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10sp"
+    android:paddingRight="10sp"
+    android:paddingTop="10sp" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Zoom"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="250px"
+        android:layout_weight="0.07" android:gravity="center">
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="130px"
+            android:layout_height="100px"
+            android:src="@drawable/imagem1" android:scaleType="fitXY"/>
+
+    </LinearLayout>
+
+    <ZoomControls
+        android:id="@+id/ZmControls"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:gravity="center"/>
+
+</LinearLayout>

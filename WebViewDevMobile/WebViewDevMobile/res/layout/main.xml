@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:paddingLeft="10sp" android:paddingRight="10sp" android:paddingTop="10sp" android:paddingBottom="10sp">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Exemplo com WebView" android:textSize="20sp" android:gravity="center"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.13" >
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnMostrar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="DevMobileBrasil" android:textSize="22sp"/>
+
+</LinearLayout>

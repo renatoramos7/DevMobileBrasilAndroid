@@ -1,0 +1,26 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Olá estamos na tela3" />
+
+        <Button
+            android:id="@+id/bttela1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Voltar tela1" />
+
+        <Button
+            android:id="@+id/bttela2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Voltar tela2" />
+
+    </LinearLayout>

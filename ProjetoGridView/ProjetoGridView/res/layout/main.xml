@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/logo"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="DevMobileBrasil" android:gravity="center" android:textSize="24sp" android:textColor="#000000"/>
+
+    <!--// Comentário
+    GridView 
+    android:columnWidth = largura da coluna
+    android:numColumns = Números de colunas
+    -->
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:columnWidth="70dip"
+        android:gravity="center"
+        android:horizontalSpacing="15dip"
+        android:numColumns="auto_fit"
+        android:padding="11dip"
+        android:verticalSpacing="15dip" >
+    </GridView>
+
+</LinearLayout>

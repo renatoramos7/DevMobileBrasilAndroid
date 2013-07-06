@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/logoandroid"
+    android:orientation="vertical"
+    android:paddingLeft="12sp"
+    android:paddingRight="12sp"
+    android:paddingTop="12sp" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Visualizando Contatos Clique no botão para ver os Contatod"
+        android:textColor="#000000"
+        android:textSize="20sp" android:gravity="center"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/imgBtnOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon" />
+
+    </LinearLayout>
+
+</LinearLayout>

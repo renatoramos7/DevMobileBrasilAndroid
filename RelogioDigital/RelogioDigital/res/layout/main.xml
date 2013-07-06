@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/imagem"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:paddingTop="10sp"
+        android:text="Relogio Digital"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15" >
+    </LinearLayout>
+
+    <DigitalClock
+        android:id="@+id/digitalClock1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="DigitalClock" android:gravity="center" android:textColor="#000000" android:textSize="30sp"/>
+
+</LinearLayout>

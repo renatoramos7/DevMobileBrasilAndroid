@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Bem vindo, escolha os itens comprados" />
+
+    <CheckBox
+        android:id="@+id/cbcamisa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Camisa (R$ 40,00)" />
+
+    <CheckBox
+        android:id="@+id/cbcalca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calça (R$45,00)" />
+
+    <CheckBox
+        android:id="@+id/cbbermuda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bermuda (R$28,00)" />
+
+    <CheckBox
+        android:id="@+id/cbsapato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sapato (R$60,00)" />
+
+    <CheckBox
+        android:id="@+id/cbtenis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tenis (R$68,00)" />
+
+    <CheckBox
+        android:id="@+id/cbchinelo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chinelo (R$ 34,00)" />
+
+    <Button
+        android:id="@+id/btsomar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Total" />
+
+</LinearLayout>
